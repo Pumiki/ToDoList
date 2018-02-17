@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<!-- Users table -->
+	<class name="com.assaf.yoni.model.Users" table="USERS">
+		<id name="id" type="int" column="ID" >
+			<generator class="increment"/>
+		</id>
+		<property name="username">
+			<column name="USER_NAME"/>
+		</property>
+		<property name="password">
+			<column name="PASSWORD"/>
+		</property>
+		<property name="firstname">
+			<column name="FIRST_NAME"/>
+		</property>
+		<property name="lastname">
+			<column name="LAST_NAME"/>
+		</property>
+	</class>
+<!-- Items table -->	
+	<class name="com.assaf.yoni.model.Items" table="ITEMS">
+		<id name="id" type="int" column="ID" >
+			<generator class="increment"/>
+		</id>
+		<property name="description">
+			<column name="DESCRIPTION"/>
+		</property>
+		<property name="userId">
+			<column name="USER_ID"/>
+		</property>
+	</class>
+</hibernate-mapping>

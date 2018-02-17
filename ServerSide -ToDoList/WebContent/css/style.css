@@ -1,0 +1,72 @@
+
+.bg {
+	/* The image used */
+	background-image:
+		url("http://www.workflowmax.com/hubfs/6-things-to-do-list.png");
+	/* Full height */
+	height: 100%;
+	width: 100%;
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+welcomePar {
+	font-family: "Brush Script MT", cursive;
+	font-style: normal;
+	font-variant: normal;
+	position: absolute;
+	top: 40px;
+	left: 0;
+	text-align: center;
+	font-size: 120px;
+	width: 100%;
+}
+
+.form-container{
+	border:3px solid;
+	padding: 30px 40px;
+	margin-top: 220px;
+	-webkit-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+	box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+}
+
+h6{
+	padding: 0px 0px 0px 130px;
+}
+
+/* Management */
+
+.bgM {
+	/* The image used */
+	background-image:
+		url("http://www.workflowmax.com/hubfs/6-things-to-do-list.png");
+	/* Full height */
+	height: 140vh;
+	width: 100vw;
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+img{
+	margin-left: 225px;
+}
+
+logOutButton {
+	background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
